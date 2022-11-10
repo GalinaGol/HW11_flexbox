@@ -137,13 +137,12 @@ header a {
 .first-block {
     display: flex;
     align-items: center;
-    padding: 28px 0px 133px 20px;
+    padding: 21px 0px 121px 20px;
 }
 
 .main-text {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     max-width: 540px;
     padding: 54px 0;
 }
@@ -315,6 +314,10 @@ header a {
     height: 175px;
 }
 
+.lokalise2 h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
 
 /* blue block */
 
@@ -390,7 +393,7 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 164px 0;
+    padding: 130px 0;
     text-align: center;
 }
 
@@ -409,7 +412,7 @@ header a {
 /* red block try it  */
 
 .lokalization {
-    padding: 48px 0;
+    padding: 78px 0;
 }
 
 .lokalization h2 {
@@ -439,7 +442,7 @@ header a {
     display: flex;
     flex-direction: column;
     max-width: 23%;
-    margin: 103px 0px;
+    margin: 77px 0px;
 }
 
 .case-studies h3 {
@@ -473,15 +476,30 @@ header a {
     line-height: 15px;
 }
 
-.footer-menu h4{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 20px;
-    padding-bottom: 20px;
-}
-
 .footer-span {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
+}
+
+.lokalise-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 17px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer-logo-wrapp {
+  max-width: 400px;
+  display: flex;
+}
+
+.footer-logo-wrapp span {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-logo-wrapp a {
+    width: 45%;
 }
